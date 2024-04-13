@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    margin: 0 0 114px 123px;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+}
+
+.registrarion {
+    width: 50%;
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin: 31px 0 89px 42px;
+}
+
+.signin {
+    width: 431px;
+    height: auto;
+}
+
+.signin__title {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.signin__descr {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.div__signin__link {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 52px;
+}
+
+.signin__link {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.signin__to_signup {
+    color: rgb(12, 33, 193);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.action__label {
+    color: rgb(153, 153, 153);
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.div__action {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.div__action__img {
+    background: url('./images/message1.svg');
+    width: 17px;
+    height: 17px;
+}
+
+.action__inp {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    font-family: 'Poppins';
+    width: 429px;
+    /* height: 24px; */
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+    margin-bottom: 49px;
+    /* Задаём отступы между placeholder и input */
+    text-indent: 25px;
+    /* в нашем случае это тоже самое что и padding-left: 25px; */
+}
+
+.email__img {
+    background-image: url('./images/message1.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+/* ACTION 2 */
+
+.div__action2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.password__img {
+    background-image: url('./images/padlock1.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+/* REMEMBER ME? */
+
+.action__remember {
+    display: flex;
+    text-align: center;
+    width: 429px;
+    margin-bottom: 60px;
+}
+
+.remember__me {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 0 206px 0 10px;
+}
+
+.remember__p {
+    width: 108px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+}
+
+.btn__log__in {
+    width: 429px;
+    height: 53px;
+    border-radius: 32px;
+    border: none;
+    background-color: rgba(12, 33, 193, 1);
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    color: white;
+}
+
+.btn__log__in:hover {
+    background-color: rgb(11, 28, 158);
+}
+
+.btn__log__in:active {
+    background-color: rgb(9, 22, 118);
+}
+
+/* SIGN IN ПОСЛЕ КНОПКИ LOGIN */
+
+.signin__continue {
+    width: 130px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(181, 181, 181, 1);
+    margin: 39px auto 31px auto;
+}
+
+.signin__images {
+    width: 165px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* WEBSITE */
+
+.website {
+    background-color: rgba(0, 8, 66, 1);
+    border-radius: 15px;
+    margin: 21px 22px 20px 130px;
+    width: 735px;
+    height: 859px;
+}
+
+.website__telephone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 145px;
+    height: 23px;
+    margin: 24px 32px 17px 565px;
+}
+
+.telephone__img {
+    background-image: url('./images/phone.svg');
+    width: 14px;
+    height: 14px;
+}
+
+.website__tel {
+    max-width: 125px;
+    max-height: 23px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+.website__rectangle {
+    width: 546px;
+    height: 699px;
+    margin: 0 91px 96px 98px;
+}
+
+.website__image {
+    text-align: right;
+    width: 521px;
+    height: 521px;
+    margin-bottom: 84px;
+}
+
+.website__title {
+    color: rgba(255, 255, 255, 1);
+    width: 318px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.website__descr {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+
+/* SIGN UP */
+
+.signup {
+    width: 431px;
+    height: auto;
+    /* display: none; */
+}
+
+.user__img {
+    background-image: url('./images/user.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.form__up input {
+    margin-bottom: 42px;
+}
+
+.display__none {
+    display: none;
+}
